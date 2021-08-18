@@ -12,7 +12,7 @@
 body {
   margin: 50px auto;
   margin-top: 0;
-  max-width: 700px;
+  max-width: 800px;
   line-height: 1;
   font-family: var(--font-family);
 }
@@ -116,4 +116,12 @@ p {
 }
 .about-me {
   padding-top: 80px;
+}
+
+@media (max-width: 576px) {
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
